@@ -17,3 +17,8 @@ end
 p count_chars('aba')
 p count_chars('')
 p count_chars('abcdefabcdeabcab')
+
+# mine worked well, to note there are simpler options. one simpler option from codewars below for reference...
+# def count_chars(s)
+#   s.chars.uniq.each_with_object({}) { |c, h| h[c] = s.count(c) }
+# end
