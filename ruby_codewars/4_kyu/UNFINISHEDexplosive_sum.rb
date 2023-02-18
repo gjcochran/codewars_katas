@@ -39,6 +39,7 @@ p exp_sum(4)
 # p exp_sum(5)
 # p exp_sum(10)
 
+# NOTE TO TRY PARTITION METHOD
 
 # first_pass = arr.map { |num| [num, n - num] }
 # second_half = first_pass.select { |sub| sub[1].even? ? sub[1] <= (n / 2) : sub[1] <= ((n / 2) - 1) }
